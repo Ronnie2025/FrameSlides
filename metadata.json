@@ -1,0 +1,5 @@
+{
+  "name": "MintPPT",
+  "description": "An AI-powered presentation generator that transforms ideas into visual slides using Gemini image generation capabilities.",
+  "requestFramePermissions": []
+}
