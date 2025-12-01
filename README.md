@@ -1,12 +1,12 @@
 # FrameSlides - AI Presentation Generator
 
-FrameSlides is a next-generation AI presentation tool that transforms your ideas into visual slides instantly. It leverages Google's Gemini models to generate both high-quality image slides and modern HTML-based slide designs.
+FrameSlides is a next-generation AI presentation tool that transforms your ideas into visual slides instantly. It leverages Nano Banana Pro and Gemini models to generate both high-quality image slides and modern HTML-based slide designs.
 
 ## ✨ Key Features
 
 ### 🎨 Dual Generation Modes
 - **Image Mode**: Uses Gemini's image generation capabilities to create visually striking, artistic slides.
-- **HTML Mode**: Uses Gemini Pro to generate clean, responsive, and editable HTML/Tailwind CSS slides. Features a distinct **Indigo** theme and simulates a 1280x720 canvas for perfect layout scaling.
+- **HTML Mode**(test): Uses Gemini Pro to generate clean, responsive, and editable HTML/Tailwind CSS slides. Features a distinct **Indigo** theme and simulates a 1280x720 canvas for perfect layout scaling.
 
 ### 🚀 High Performance
 - **Parallel Generation**: Generate up to 5 slides simultaneously with configurable concurrency settings.
