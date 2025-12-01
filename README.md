@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# FrameSlides - AI Presentation Generator
 
-# Run and deploy your AI Studio app
+FrameSlides is a next-generation AI presentation tool that transforms your ideas into visual slides instantly. It leverages Google's Gemini models to generate both high-quality image slides and modern HTML-based slide designs.
 
-This contains everything you need to run your app locally.
+## ✨ Key Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/19oOQM0p_JG8d6CBC1MPQNw0hqHzvRzIe
+### 🎨 Dual Generation Modes
+- **Image Mode**: Uses Gemini's image generation capabilities to create visually striking, artistic slides.
+- **HTML Mode**: Uses Gemini Pro to generate clean, responsive, and editable HTML/Tailwind CSS slides. Features a distinct **Indigo** theme and simulates a 1280x720 canvas for perfect layout scaling.
 
-## Run Locally
+### 🚀 High Performance
+- **Parallel Generation**: Generate up to 5 slides simultaneously with configurable concurrency settings.
+- **Smart Session Management**: Auto-renames sessions based on content and prevents duplicate empty sessions.
 
-**Prerequisites:**  Node.js
+### 💎 Premium UI/UX
+- **Modern Aesthetic**: Clean, distraction-free interface with Slate (Image Mode) and Indigo (HTML Mode) themes.
+- **Interactive Chat**: Resizable chat column, message copy functionality, and smooth animations.
+- **Guest Mode**: Try the app instantly without logging in.
 
+### 🔒 Secure & Configurable
+- **Environment Variables**: API keys and Client IDs are managed securely via `.env.local`.
+- **Customizable Prompts**: Fine-tune the AI's behavior with separate prompts for Analysis, Image Generation, and HTML Design.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Tech Stack
+
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS
+- **AI**: Google Gemini API (Gemini 1.5 Pro, Gemini 1.5 Flash)
+- **Auth**: Google Identity Services
+- **Icons**: Lucide React
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Ronnie2025/FrameSlides.git
+    cd FrameSlides
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Environment**
+    Create a `.env.local` file in the root directory:
+    ```env
+    GEMINI_API_KEY=your_gemini_api_key_here
+    VITE_GOOGLE_CLIENT_ID=your_google_client_id_here
+    ```
+
+4.  **Run Locally**
+    ```bash
+    npm run dev
+    ```
+
+## 📝 License
+
+MIT License
